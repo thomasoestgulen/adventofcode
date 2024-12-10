@@ -17,7 +17,7 @@ def similarity(a, b):
     return tot
 
 if __name__ == "__main__":
-    input = open_input("../input.txt")
+    input = open_input("2024\Day 01\input.txt")
     a, b = parse_input(input)
 
     a.sort()
